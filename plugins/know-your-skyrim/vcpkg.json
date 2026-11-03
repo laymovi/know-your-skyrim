@@ -1,0 +1,7 @@
+{
+  "name": "know-your-skyrim",
+  "version-string": "1.3.0",
+  "description": "Every item, person, quest and place of the load order in SkyUI's inventory, with where to get each",
+  "dependencies": ["commonlibsse-ng", "spdlog"],
+  "builtin-baseline": "127402f1c75bb3d5ff6bce04b285faa4930a5aca"
+}

@@ -1,0 +1,36 @@
+{
+  "modName": "KnowYourSkyrim",
+  "displayName": "Know your Skyrim",
+  "minMcmVersion": 2,
+  "pluginRequirements": ["KnowYourSkyrim.esp"],
+  "pages": [
+    {
+      "pageDisplayName": "Progression",
+      "cursorFillMode": "topToBottom",
+      "content": [
+        { "text": "Progression", "type": "header" },
+        {
+          "id": "bEnabled:Progression",
+          "text": "Show only what this character has met",
+          "type": "toggle",
+          "help": "The browser shows the quests in your journal, the places you found, the people you met, the things you held or saw in a chest, a shop or at a station, and what you could make. What you meet is kept all the time, switch it on or off whenever you like. Takes effect the next time the inventory opens.",
+          "valueOptions": { "sourceType": "ModSettingBool" }
+        }
+      ]
+    },
+    {
+      "pageDisplayName": "Cheats",
+      "cursorFillMode": "topToBottom",
+      "content": [
+        { "text": "Cheats", "type": "header" },
+        {
+          "id": "bEnabled:Cheats",
+          "text": "Cheat buttons in the browser",
+          "type": "toggle",
+          "help": "TAKE gives you the item, as many as the box beside it says. KILL kills a unique person or creature, the ones the game keeps alive for its quests too, RESURRECT brings a dead one back. Takes effect the next time the inventory opens. HESOYAM typed into the game's console switches them on, typed again off.",
+          "valueOptions": { "sourceType": "ModSettingBool" }
+        }
+      ]
+    }
+  ]
+}
